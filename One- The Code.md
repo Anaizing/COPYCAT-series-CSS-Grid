@@ -62,3 +62,102 @@ width and height of the screen.
 
 ## Here is the CSS
           
+          body{
+              color: #fff;
+              font-family: 'Roboto';
+              text-align: center;
+              margin: 0;
+              /*background-image: url(https://images.unsplash.com/photo-1503645208491-556c42bf64d4?auto=format&fit=crop&w=1050&q=80);
+          */
+          }
+
+          #right-scroll{
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-template-rows: 100px repeat(14, 200px);
+              max-width: 100%;
+              margin: 0;
+              grid-gap: 10px;
+          }
+
+          #right-scroll div{
+              background: #B39DDB;
+              padding: 30px;
+              grid-column: 2/3;
+          }
+
+          #right-scroll div:nth-child(even){
+              background: #FF3D00;
+          }
+
+          .A{
+              display: grid;
+              width: 100%;
+              height: 100px;
+              position: fixed;
+              margin: 0;
+              z-index: 1;
+              background-color: #B39DDB;
+          }
+          .B{
+              width: 50%;
+              height: 100%;
+              position: fixed;
+              margin-top: 100px;
+              background-color: #FF3D00;
+
+          }
+          .C{
+              grid-row: 2;
+          }
+          .D{
+              grid-row: 3;
+          }
+          .E{
+              grid-row: 4;
+          }
+          .F{
+              grid-row: 5;
+          }
+          .G{
+              grid-row: 6;
+          }
+          .H{
+              grid-row: 7;
+          }
+          .I{
+              grid-row: 8;
+          }
+          .J{
+              grid-row: 9;
+          }
+          .K{
+              grid-row: 10;
+          }
+          .L{
+              grid-row: 11;
+          }
+          .M{
+              grid-row: 12;
+          }
+          .N{
+              grid-row: 13;
+          }
+          .O{
+              grid-row: 14;
+          }
+          .P{
+              grid-row: 15;
+          }
+
+          @media (max-width: 640px)
+          {
+              .B{
+                  display: none;
+              }
+              #right-scroll div{
+                  grid-column: 1/3;
+              }
+          }
+
+I also added media queries so side B is hidden on smaller devices, while the #right-side scroll area moves places on the grid column to take up the full phone screen.
