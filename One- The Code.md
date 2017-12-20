@@ -28,8 +28,8 @@ width and height of the screen.
             <meta charset="utf-8">
             <title>Grid Layouts by ANAIZING.DESIGN </title>
             <link rel="stylesheet" type="text/css" href="grid.css"/>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-          </head>
+            <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+            </head>
           <body>
 
             <div class="A">A</div>
@@ -64,7 +64,7 @@ width and height of the screen.
           
           body{
               color: #fff;
-              font-family: 'Roboto';
+              font-family: 'Philosopher';
               text-align: center;
               margin: 0;
           }
@@ -147,6 +147,13 @@ width and height of the screen.
           .P{
               grid-row: 15;
           }
+          .anaizing{
+              color: #000;
+              font-size: 50px;
+              z-index: 1;
+              position: fixed;
+              margin-top: 25px;
+          }
 
           @media (max-width: 480px)
           {
@@ -155,6 +162,9 @@ width and height of the screen.
               }
               #right-scroll div{
                   grid-column: 1/3;
+              }
+              .anaizing{
+                  font-size: 35px;
               }
           }
 
