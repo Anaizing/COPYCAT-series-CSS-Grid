@@ -159,3 +159,7 @@ width and height of the screen.
           }
 
 I also added media queries so side B is hidden on smaller devices, while the #right-side scroll area moves places on the grid column to take up the full phone screen.
+
+## You can see it in action on my codepen...
+
+https://codepen.io/Anaizing/pen/wpGRqB
