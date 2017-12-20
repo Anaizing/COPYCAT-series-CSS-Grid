@@ -67,8 +67,6 @@ width and height of the screen.
               font-family: 'Roboto';
               text-align: center;
               margin: 0;
-              /*background-image: url(https://images.unsplash.com/photo-1503645208491-556c42bf64d4?auto=format&fit=crop&w=1050&q=80);
-          */
           }
 
           #right-scroll{
