@@ -148,7 +148,7 @@ width and height of the screen.
               grid-row: 15;
           }
 
-          @media (max-width: 640px)
+          @media (max-width: 480px)
           {
               .B{
                   display: none;
