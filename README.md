@@ -23,7 +23,7 @@ https://codepen.io/Anaizing/pen/wpGRqB
 ![Screenshot](two2.png)
 
 ### Here is the code
-
+https://github.com/Anaizing/COPYCAT-series-CSS-Grid/blob/master/Two-%20The%20Code.md
 
 ### You can see it in action on my codepen...
 
