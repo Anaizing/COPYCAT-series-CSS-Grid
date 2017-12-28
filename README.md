@@ -15,7 +15,7 @@ https://github.com/Anaizing/COPYCAT-series-CSS-Grid/blob/master/One-%20The%20Cod
 https://codepen.io/Anaizing/pen/wpGRqB
 
 ## Two
-![Screenshot](two.png)
+![Screenshot](two.jpg)
 
 
 ![Screenshot](two2.png)
